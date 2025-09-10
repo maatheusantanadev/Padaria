@@ -50,20 +50,20 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    z-index: 1; 
+    z-index: 1;
+}
 
-    .button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    }
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-    .button.sim {
-        background-color: var(--sim-color);
-    }
+.button.sim {
+    background-color: var(--sim-color);
+}
 
-    .button.nao {
-        background-color: var(--nao-color);
-        position: relative; 
-        margin-left: 15px; 
-    }
+.button.nao {
+    background-color: var(--nao-color);
+    position: relative; 
+    margin-left: 15px; 
 }
